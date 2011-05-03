@@ -1,0 +1,16 @@
+# Cat and Mouse
+
+A playing card game like skipbo.
+
+## Usage
+
+    lein deps, repl
+
+    > (use 'skipbo)
+    > (-main)
+
+## License
+
+Copyright (C) 2010 brandonhenry.net
+
+Distributed under the Eclipse Public License, the same as Clojure.

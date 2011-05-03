@@ -1,0 +1,103 @@
+div.card {
+    float:left;
+    width:75px;
+    height:100px;
+    border:solid #036 2px;
+    margin:5px;
+    padding:5px;
+    position:relative;
+    background-color:#def;
+}
+
+div.back {
+    float:left;
+    width:75px;
+    height:100px;
+    border:solid #036 2px;
+    margin:5px;
+    padding:5px;
+    position:relative;
+    background-color:#069;
+}
+
+div.card div.middle {
+    font-size:2em;
+    position:absolute;
+    top:20px;
+    left:20px;
+    text-align:center;
+}
+
+div.card div.bottom {
+    position:absolute;
+    bottom:30px;
+    left:5px;
+    text-align:center;
+}
+
+div.card span.under {
+    font-size:.6em;
+}
+
+div.card div.dropbutton {
+    position:absolute;
+    bottom:5px;
+    left:5px;
+    text-align:center;
+}
+
+div.card div.stackcount {
+    position:absolute;
+    bottom:5px;
+    right:5px;
+}
+
+div.hand, div.stacks{
+    clear:both;
+    width:auto;
+}
+
+div.goal div.card {
+    background-color:#abc;
+}
+
+div.ownzone, div.playerzone {
+    padding:5px;
+    margin:5px;
+    border:1px dashed black;
+    background-color:#69c;
+    width:500px;
+    float:left;
+}
+
+div.others {
+    width:520px;
+    float:left;
+    margin:5px;
+}
+
+div.yours {
+    width:520px;
+    float:left;
+    margin:5px;
+}
+
+div.playpiles {
+    float:left;
+    padding:5px;
+    margin:5px;
+    border:1px dashed black;
+    background-color:#036;
+}
+
+div.messages p.error {
+    padding:10px;
+    background-color:#fed;
+    border:2px dashed #963;
+    font-size:2em;
+    font-weight:bold;
+}
+
+div#bottom {
+    clear:both;
+}
